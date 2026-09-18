@@ -3,7 +3,9 @@ export const CLINIC_INFO = {
   name: "Policlínico Vitarte",
   tagline: "Tu salud en manos expertas y de confianza",
   location: "Ate Vitarte, Lima - Perú",
-  addressShort: "Av. Nicolás Ayllón / Zona Céntrica de Ate Vitarte, Lima",
+  address: "Av. Central & C. San Martín, Ate, Vitarte - Frente al Hospital II Vitarte ESSALUD",
+  addressShort: "Av. Central & C. San Martín, Ate, Vitarte (Frente al Hospital II Vitarte ESSALUD)",
+  googleMapsUrl: "https://maps.app.goo.gl/4HSNLp13FJbsDfkD7",
   phone: "+51 921 974 988",
   whatsappNumber: "51921974988",
   hours: "Lunes a Viernes: 8:00 am - 6:00 pm | Sábados: 8:00 am - 3:00 pm",
@@ -207,7 +209,7 @@ export const FAQS = [
   },
   {
     question: "¿Dónde se encuentra ubicado el Policlínico Vitarte?",
-    answer: "Contamos con una sede céntrica y de fácil acceso en el distrito de Ate Vitarte, Lima - Perú. Al escribirnos a WhatsApp te compartiremos la ubicación exacta y cómo llegar."
+    answer: "Nuestra sede está ubicada en Av. Central & C. San Martín, Ate, Vitarte (frente al Hospital II Vitarte ESSALUD), Lima - Perú. Puedes abrir nuestra ubicación directa en Google Maps (https://maps.app.goo.gl/4HSNLp13FJbsDfkD7) o escribirnos por WhatsApp para recibir indicaciones detalladas."
   },
   {
     question: "¿Ofrecen convenios para colegios, empresas o instituciones?",
