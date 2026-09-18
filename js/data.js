@@ -6,7 +6,7 @@ export const CLINIC_INFO = {
   addressShort: "Av. Nicolás Ayllón / Zona Céntrica de Ate Vitarte, Lima",
   phone: "+51 921 974 988",
   whatsappNumber: "51921974988",
-  hours: "Lunes a Sábado: 8:00 am - 7:00 pm | Domingos: 8:00 am - 1:00 pm",
+  hours: "Lunes a Viernes: 8:00 am - 6:00 pm | Sábados: 8:00 am - 3:00 pm",
   emergencyNote: "Atención ambulatoria y consultas médicas programadas.",
   baseWhatsAppUrl: "https://wa.me/51921974988"
 };
@@ -219,7 +219,7 @@ export const FAQS = [
   },
   {
     question: "¿Cuáles son los horarios de atención?",
-    answer: "Atendemos de Lunes a Sábado de 8:00 am a 7:00 pm y Domingos de 8:00 am a 1:00 pm. Recuerda consultar disponibilidad previa para tu especialidad por WhatsApp."
+    answer: "Atendemos de Lunes a Viernes de 8:00 am a 6:00 pm y Sábados de 8:00 am a 3:00 pm. Recuerda consultar disponibilidad previa para tu especialidad por WhatsApp."
   }
 ];
 
