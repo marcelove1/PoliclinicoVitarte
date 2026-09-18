@@ -48,8 +48,8 @@
     "hasMap": "https://maps.app.goo.gl/4HSNLp13FJbsDfkD7",
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "-12.0289",
-      "longitude": "-76.9189"
+      "latitude": "-12.0266047",
+      "longitude": "-76.9233566"
     },
     "openingHours": [
       "Mo-Fr 08:00-18:00",
@@ -523,21 +523,25 @@
         <!-- Tarjeta de Mapa / Cómo Llegar -->
         <div class="map-placeholder-box">
           <iframe 
-            src="https://maps.google.com/maps?q=Av.+Central+%26+C.+San+Mart%C3%ADn%2C+Ate+Vitarte+Hospital+II+Vitarte+ESSALUD&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+            src="https://maps.google.com/maps?q=-12.0266047,-76.9233566&hl=es&z=17&output=embed" 
             width="100%" 
             height="100%" 
-            style="border:0; position:absolute; top:0; left:0; width:100%; height:100%; z-index:1; opacity: 0.9;" 
+            style="border:0;" 
             allowfullscreen="" 
             loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade" 
             title="Mapa de ubicación Policlínico Vitarte">
           </iframe>
-          <div class="map-card-overlay" style="position: relative; z-index: 2;">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            <h4>Sede Policlínico Vitarte</h4>
-            <p><strong>Av. Central & C. San Martín, Ate, Vitarte</strong><br><span style="color: var(--color-primary); font-weight: 600;">Frente al Hospital II Vitarte ESSALUD</span></p>
-            
-            <a href="https://maps.app.goo.gl/4HSNLp13FJbsDfkD7" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm btn-block">
+          <div class="map-card-overlay">
+            <div class="map-card-header">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <h4>Policlínico Vitarte</h4>
+            </div>
+            <p>
+              <strong>Av. Central & C. San Martín, Ate, Vitarte</strong>
+              <span class="map-ref-text">Frente al Hospital II Vitarte ESSALUD</span>
+            </p>
+            <a href="https://maps.app.goo.gl/4HSNLp13FJbsDfkD7" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm btn-map-cta">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
               <span>Ver en Google Maps</span>
             </a>
